@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:google_fonts/google_fonts.dart';
 
 const startAlignment = Alignment.centerRight;
 const endAlignment = Alignment.centerLeft;
@@ -36,10 +37,10 @@ class HomeContainer extends StatelessWidget {
               child: Image.asset('assets/images/quiz-logo.png', width: 300),
             ),*/
             SizedBox(height: 50),
-            const Text(
+            Text(
               'Learn Flutter the fun way!',
-              style: TextStyle(
-                color: Color.fromRGBO(255, 255, 255, 1),
+              style: GoogleFonts.lato(
+                color: const Color.fromRGBO(255, 255, 255, 1),
                 fontSize: 18,
               ),
             ),
